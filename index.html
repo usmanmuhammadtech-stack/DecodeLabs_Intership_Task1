@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usman Dev — Frontend Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <div class="loader-text">UD<span class="loader-dot">.</span></div>
+</div>
+
+<!-- Header -->
+<header id="header">
+  <a href="#hero" class="logo">Usman<span>Dev</span></a>
+  <nav class="desktop-nav">
+    <a href="#hero" class="nav-link active">Home</a>
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#about" class="nav-link">About</a>
+    <a href="#work" class="nav-link">Work</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+  <a href="#contact" class="cta-btn header-cta">Let's Talk</a>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- Mobile Nav -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#hero" class="mob-link">Home</a>
+  <a href="#services" class="mob-link">Services</a>
+  <a href="#about" class="mob-link">About</a>
+  <a href="#work" class="mob-link">Work</a>
+  <a href="#contact" class="mob-link">Contact</a>
+</div>
+
+<main>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span> Available for Work
+      </div>
+      <h1 class="hero-title reveal">
+        <span class="line">I Design &</span>
+        <span class="line accent-line">Build Modern</span>
+        <span class="line">Websites</span>
+      </h1>
+      <p class="hero-sub reveal">Frontend Developer crafting clean, fast, and responsive digital experiences that leave lasting impressions.</p>
+      <div class="hero-actions reveal">
+        <a href="#work" class="cta-btn primary-btn">View My Work</a>
+        <a href="#contact" class="cta-btn ghost-btn">Hire Me <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat"><span class="stat-num" data-target="30">0</span><span>+</span><p>Projects Done</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="3">0</span><span>+</span><p>Years Experience</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="20">0</span><span>+</span><p>Happy Clients</p></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="avatar-card">
+        <div class="avatar-ring"></div>
+        <div class="avatar-inner">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="float-badge badge-top">
+          <i class="fa-brands fa-html5"></i> HTML
+        </div>
+        <div class="float-badge badge-right">
+          <i class="fa-brands fa-css3-alt"></i> CSS
+        </div>
+        <div class="float-badge badge-bottom">
+          <i class="fa-brands fa-js"></i> JS
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span>HTML5</span><span class="dot">✦</span>
+      <span>CSS3</span><span class="dot">✦</span>
+      <span>JavaScript</span><span class="dot">✦</span>
+      <span>React</span><span class="dot">✦</span>
+      <span>Responsive Design</span><span class="dot">✦</span>
+      <span>UI/UX</span><span class="dot">✦</span>
+      <span>Figma</span><span class="dot">✦</span>
+      <span>Git</span><span class="dot">✦</span>
+      <span>HTML5</span><span class="dot">✦</span>
+      <span>CSS3</span><span class="dot">✦</span>
+      <span>JavaScript</span><span class="dot">✦</span>
+      <span>React</span><span class="dot">✦</span>
+      <span>Responsive Design</span><span class="dot">✦</span>
+      <span>UI/UX</span><span class="dot">✦</span>
+      <span>Figma</span><span class="dot">✦</span>
+      <span>Git</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="section-header reveal">
+      <p class="section-label">What I Do</p>
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Modern, scalable, and performant websites built with clean code and best practices.</p>
+        <div class="service-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+        <h3>Responsive Design</h3>
+        <p>Pixel-perfect layouts that look stunning on every screen, from mobile to 4K.</p>
+        <div class="service-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-paintbrush"></i></div>
+        <h3>UI / UX Design</h3>
+        <p>Intuitive, attractive interfaces designed to delight users and drive results.</p>
+        <div class="service-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+        <h3>Performance Optimization</h3>
+        <p>Blazing fast load times and smooth interactions for the best user experience.</p>
+        <div class="service-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="about-visual reveal">
+      <div class="about-img-wrap">
+        <div class="about-glow"></div>
+        <div class="about-box">
+          <i class="fa-solid fa-terminal"></i>
+          <pre class="code-snippet"><span class="c-blue">const</span> <span class="c-green">dev</span> = {
+  name: <span class="c-yellow">"Usman"</span>,
+  role: <span class="c-yellow">"Full Stack Web Developer"</span>,
+  skills: [<span class="c-yellow">"HTML"</span>, <span class="c-yellow">"CSS"</span>,
+           <span class="c-yellow">"JS"</span>, <span class="c-yellow">"React"</span>],
+  available: <span class="c-blue">true</span>
+};</pre>
+        </div>
+        <div class="exp-badge">
+          <span class="exp-num">3+</span>
+          <span class="exp-text">Years Exp.</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <p class="section-label">Who I Am</p>
+      <h2 class="section-title">About Me</h2>
+      <p class="about-text">I'm a passionate frontend developer who loves turning ideas into beautiful, functional digital products. I specialize in crafting modern, responsive websites that not only look great but also perform exceptionally.</p>
+      <p class="about-text">With 3+ years of hands-on experience, I've helped startups and businesses build their online presence from scratch.</p>
+      <div class="skills-list">
+        <span class="skill-tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+        <span class="skill-tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+        <span class="skill-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span class="skill-tag"><i class="fa-brands fa-react"></i> React</span>
+        <span class="skill-tag"><i class="fa-brands fa-figma"></i> Figma</span>
+        <span class="skill-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+      </div>
+      <a href="#contact" class="cta-btn primary-btn">Work With Me</a>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="work">
+    <div class="section-header reveal">
+      <p class="section-label">Portfolio</p>
+      <h2 class="section-title">Recent Work</h2>
+    </div>
+    <div class="work-grid">
+      <div class="work-card reveal">
+        <div class="work-img" style="--clr: #6366f1;">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        <div class="work-info">
+          <span class="work-tag">E-Commerce</span>
+          <h3>ShopEase — Online Store</h3>
+          <p>A modern shopping experience with cart, filters, and payment integration.</p>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-img" style="--clr: #0ea5e9;">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Dashboard</span>
+          <h3>Analytics Dashboard</h3>
+          <p>Data visualization dashboard with real-time charts and filters.</p>
+        </div>
+      </div>
+      <div class="work-card reveal">
+        <div class="work-img" style="--clr: #10b981;">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <div class="work-info">
+          <span class="work-tag">Landing Page</span>
+          <h3>GreenLife — Brand Site</h3>
+          <p>Eco-friendly brand landing page with smooth animations and scroll effects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ✅ Contact — FORMSPREE REAL FORM (sirf yahi badla hai) -->
+  <section id="contact" class="contact">
+    <div class="contact-wrap">
+      <div class="contact-left reveal">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Let's Work<br>Together</h2>
+        <p class="contact-sub">Have a project in mind? I'd love to hear about it. Send me a message and I'll get back to you within 24 hours.</p>
+        <div class="contact-info">
+          <div class="info-item"><i class="fa-solid fa-envelope"></i> usmanmuhammad.tech@gmail.com</div>
+          <div class="info-item"><i class="fa-solid fa-location-dot"></i> Pakistan</div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <!-- FORMSPREE: action mein apna ID lagao -->
+      <form class="contact-form reveal"
+            id="contactForm"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST">
+
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" name="name" placeholder="John Doe" required>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" name="email" placeholder="john@example.com" required>
+        </div>
+        <div class="form-group">
+          <label>Project Type</label>
+          <select name="project_type">
+            <option value="">Select a service</option>
+            <option>Web Development</option>
+            <option>Responsive Design</option>
+            <option>UI/UX Design</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" placeholder="Tell me about your project..." id="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="cta-btn primary-btn full-btn" id="sendBtn">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+
+        <!-- Success / Error messages -->
+        <div class="form-success" id="formSuccess" style="display:none;">
+          <i class="fa-solid fa-circle-check"></i> Message sent! I'll reply soon.
+        </div>
+        <div class="form-error" id="formError" style="display:none;">
+          <i class="fa-solid fa-circle-xmark"></i> Something went wrong. Please try again.
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <a href="#hero" class="logo">Usman<span>Dev</span></a>
+    <p class="footer-copy">© 2026 Usman Dev. Built with passion.</p>
+    <a href="#hero" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
